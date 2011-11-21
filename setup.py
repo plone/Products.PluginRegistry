@@ -46,7 +46,8 @@ setup(name='Products.PluginRegistry',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'Zope2 >= 2.12'
+          'Zope2 >= 2.12',
+          'Products.GenericSetup >= 1.7.0dev'
           ],
       entry_points="""
       [zope2.initialize]
